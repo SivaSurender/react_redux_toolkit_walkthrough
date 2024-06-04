@@ -1,5 +1,13 @@
+import Login from "./Login";
+import Profile from "./Profile";
+
 function App() {
-  return <div>test</div>;
+  return (
+    <div>
+      <Login />
+      <Profile />
+    </div>
+  );
 }
 
 export default App;
